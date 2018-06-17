@@ -47,7 +47,7 @@ public class Links {
 			if (driver.getTitle().equals("Under Construction: Mercury Tours")){
 				System.out.println(linkNames[i]+" under Construction");
 			}  else {
-				System.out.println(linkNames[i]+" is working");
+				System.out.println(linkNames[i]+" is working good anmd right");
 			}
 		}
 		
