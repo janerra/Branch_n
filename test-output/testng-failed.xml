@@ -3,12 +3,12 @@
 <suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="Table.Field_test">
+      <class name="Table.Finra">
         <methods>
-          <include name="Field"/>
+          <include name="Finra"/>
           <include name="setUP"/>
         </methods>
-      </class> <!-- Table.Field_test -->
+      </class> <!-- Table.Finra -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

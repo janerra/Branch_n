@@ -41,6 +41,8 @@ WebDriver driver;
 		List<WebElement> imgs = driver.findElements(By.tagName("img"));
 		System.out.println(imgs.size());
 		
+		WebElement we = driver.findElement(By.xpath("//a[contains(text(),'FINRA')]")); 
+		we.click();
 		
 		
 		
